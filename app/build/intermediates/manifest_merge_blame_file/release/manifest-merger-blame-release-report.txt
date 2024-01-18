@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.binusapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:6:5-79
+11-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:7:5-76
+12-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:10:5-81
+15-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:12:5-98
+17-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:12:22-95
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:13:5-95
+18-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:13:22-92
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.binusapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.binusapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:15:5-59:19
+37        android:name="com.example.binusapp.BaseApplication"
+37-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:16:9-40
+38        android:allowBackup="false"
+38-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:23:9-36
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] /Users/ujangmisbah/.gradle/caches/transforms-3/b70601ea1dbc00926dd8e71de5fbcd4a/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:25:9-65
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="false"
+42-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:24:9-42
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:17:9-43
+44        android:label="@string/app_name"
+44-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:19:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:20:9-54
+46        android:screenOrientation="portrait"
+46-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:18:9-45
+47        android:supportsRtl="true"
+47-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:21:9-35
+48        android:theme="@style/AppTheme" >
+48-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:22:9-40
+49        <activity
+49-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:28:9-39:20
+50            android:name="com.example.binusapp.ui.launch.view.LaunchActivity"
+50-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:29:13-58
+51            android:exported="true"
+51-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:30:13-36
+52            android:screenOrientation="portrait" >
+52-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:31:13-49
+53            <intent-filter>
+53-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:34:13-37:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:35:17-69
+54-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:35:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:36:17-77
+56-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:36:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:40:9-45:56
+60            android:name="com.example.binusapp.ui.login.view.LoginActivity"
+60-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:41:13-56
+61            android:launchMode="singleTop"
+61-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:43:13-43
+62            android:screenOrientation="portrait"
+62-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:44:13-49
+63            android:windowSoftInputMode="adjustResize" />
+63-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:42:13-55
+64        <activity
+64-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:46:9-51:56
+65            android:name="com.example.binusapp.ui.main.view.MainActivity"
+65-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:47:13-54
+66            android:launchMode="singleTop"
+66-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:49:13-43
+67            android:screenOrientation="portrait"
+67-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:50:13-49
+68            android:windowSoftInputMode="adjustResize" />
+68-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:48:13-55
+69
+70        <meta-data
+70-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:52:9-54:55
+71            android:name="com.google.android.geo.API_KEY"
+71-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:53:13-58
+72            android:value="@string/google_maps_key" />
+72-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:54:13-52
+73        <meta-data
+73-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:55:9-57:69
+74            android:name="com.google.android.gms.version"
+74-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:56:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->/Users/ujangmisbah/Documents/Project/binus-app/app/src/main/AndroidManifest.xml:57:13-66
+76
+77        <activity
+77-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:27:9-44:20
+78            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+78-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:28:13-80
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:29:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:30:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:31:13-44
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+82-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:32:13-72
+83            <intent-filter>
+83-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:33:13-43:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+84-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+86-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+87-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+88
+89                <data
+89-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+90                    android:host="firebase.auth"
+90-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+91                    android:path="/"
+91-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+92                    android:scheme="genericidp" />
+92-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:45:9-62:20
+96            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+96-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:46:13-79
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:47:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:48:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:49:13-44
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+100-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:50:13-72
+101            <intent-filter>
+101-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:51:13-61:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+102-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+104-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+105-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+106
+107                <data
+107-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+108                    android:host="firebase.auth"
+108-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+109                    android:path="/"
+109-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+110                    android:scheme="recaptcha" />
+110-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+111            </intent-filter>
+112        </activity>
+113
+114        <service
+114-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:64:9-70:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:65:13-84
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:66:13-37
+118            <meta-data
+118-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:67:13-69:85
+119                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+119-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:68:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-auth:21.0.4] /Users/ujangmisbah/.gradle/caches/transforms-3/6095d466319c213c2b2b9c42c9d06064/transformed/jetified-firebase-auth-21.0.4/AndroidManifest.xml:69:17-82
+121        </service>
+122
+123        <activity
+123-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+124            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+124-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+125            android:excludeFromRecents="true"
+125-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+128        <!--
+129            Service handling Google Sign-In user revocation. For apps that do not integrate with
+130            Google Sign-In, this service will never be started.
+131        -->
+132        <service
+132-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+133            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+133-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+135            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+135-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+136            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+136-->[com.google.android.gms:play-services-auth:20.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/38642079797317fb064fc30dc9b36d1e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+137        <uses-library
+137-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+138            android:name="org.apache.http.legacy"
+138-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+139            android:required="false" />
+139-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/a2d15b12315ea81708e34ba9ac07bb59/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+143            android:authorities="com.example.binusapp.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:20.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/836fa9342e39d1e82012aecb5e958383/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:18.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/c277af4f4e70bfe0956c98a3fa6caf0a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:18.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/c277af4f4e70bfe0956c98a3fa6caf0a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:18.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/c277af4f4e70bfe0956c98a3fa6caf0a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:18.1.0] /Users/ujangmisbah/.gradle/caches/transforms-3/c277af4f4e70bfe0956c98a3fa6caf0a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+152
+153        <provider
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+154            android:name="androidx.startup.InitializationProvider"
+154-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+155            android:authorities="com.example.binusapp.androidx-startup"
+155-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+156            android:exported="false" >
+156-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+157            <meta-data
+157-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+158-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+159                android:value="androidx.startup" />
+159-->[androidx.emoji2:emoji2:1.2.0] /Users/ujangmisbah/.gradle/caches/transforms-3/77f8b0fd18ca85842f33a12ebef0c6af/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+160            <meta-data
+160-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ujangmisbah/.gradle/caches/transforms-3/6825e32870229fed3299560026823609/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+161-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ujangmisbah/.gradle/caches/transforms-3/6825e32870229fed3299560026823609/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+162                android:value="androidx.startup" />
+162-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ujangmisbah/.gradle/caches/transforms-3/6825e32870229fed3299560026823609/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+163            <meta-data
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+164                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+165                android:value="androidx.startup" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+166        </provider>
+167
+168        <receiver
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+169            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+170            android:directBootAware="false"
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+171            android:enabled="true"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+172            android:exported="true"
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+173            android:permission="android.permission.DUMP" >
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+175                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+178                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+179            </intent-filter>
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+181                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+182            </intent-filter>
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+184                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ujangmisbah/.gradle/caches/transforms-3/beb43f0259d401ea0c6a2cb192f5bbf1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+185            </intent-filter>
+186        </receiver>
+187    </application>
+188
+189</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1058931286154",
+    "project_id": "binus-app",
+    "storage_bucket": "binus-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058931286154:android:a5ab6386b3a424e07bcd73",
+        "android_client_info": {
+          "package_name": "com.example.binusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058931286154-olf9cu9h9f7qnuc4n4s9grpffb9va564.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.binusapp",
+            "certificate_hash": "dde3fdd91fcbb908fdc53c9a5496fdedf1b63a5d"
+          }
+        },
+        {
+          "client_id": "1058931286154-2423to9dde59lqk7mrj3t1d2lr2kf06r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcUx6ekLqr8NOhou2L1mROQkhiv17VQNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058931286154-2423to9dde59lqk7mrj3t1d2lr2kf06r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

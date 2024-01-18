@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Per Material Design specs: -->
+    <!-- https://material.io/design/components/buttons-floating-action-button.html#specs -->
+    <dimen name="editBalloonOverlayPadding">6dp</dimen>
+    <dimen name="editBalloonOverlayRadius">11dp</dimen>
+    <dimen name="text_8">8dp</dimen>
+    <dimen name="text_10">9dp</dimen>
+    <dimen name="text_11">10dp</dimen>
+    <dimen name="text_12">11dp</dimen>
+    <dimen name="text_13">12dp</dimen>
+    <dimen name="text_14">13dp</dimen>
+    <dimen name="text_15">14dp</dimen>
+    <dimen name="text_16">15dp</dimen>
+    <dimen name="text_17">16dp</dimen>
+    <dimen name="text_18">17dp</dimen>
+    <dimen name="text_19">17dp</dimen>
+    <dimen name="text_20">18dp</dimen>
+    <dimen name="text_21">19dp</dimen>
+    <dimen name="text_22">20dp</dimen>
+    <dimen name="text_23">21dp</dimen>
+    <dimen name="text_24">22dp</dimen>
+    <dimen name="text_25">23dp</dimen>
+    <dimen name="text_26">24dp</dimen>
+    <dimen name="text_27">25dp</dimen>
+    <dimen name="text_28">26dp</dimen>
+    <dimen name="text_29">27dp</dimen>
+    <dimen name="text_30">28dp</dimen>
+    <dimen name="text_32">30dp</dimen>
+
+    <dimen name="peek_height_menu">235dp</dimen>
+    <dimen name="peek_height">215dp</dimen>
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">60dp</dimen>
+    <dimen name="placeholderTextHeight">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+
+</resources>

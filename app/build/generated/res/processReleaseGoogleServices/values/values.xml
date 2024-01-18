@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1058931286154-2423to9dde59lqk7mrj3t1d2lr2kf06r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1058931286154</string>
+    <string name="google_api_key" translatable="false">AIzaSyAcUx6ekLqr8NOhou2L1mROQkhiv17VQNY</string>
+    <string name="google_app_id" translatable="false">1:1058931286154:android:a5ab6386b3a424e07bcd73</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAcUx6ekLqr8NOhou2L1mROQkhiv17VQNY</string>
+    <string name="google_storage_bucket" translatable="false">binus-app.appspot.com</string>
+    <string name="project_id" translatable="false">binus-app</string>
+</resources>

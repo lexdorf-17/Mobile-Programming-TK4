@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_out_bottom.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_out_bottom.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/font_mavenpro_semibold.ttf.flat",
+        "source": "com.example.binusapp-main-48:/font/mavenpro_semibold.ttf"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_top_out.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/top_out.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/layout_activity_login.xml.flat",
+        "source": "com.example.binusapp-main-48:/layouts/login/activity/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/layout_activity_launch.xml.flat",
+        "source": "com.example.binusapp-main-48:/layouts/launch/activity/layout/activity_launch.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/font_my_custom_font_family.xml.flat",
+        "source": "com.example.binusapp-main-48:/font/my_custom_font_family.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_from_right.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_from_right.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/layout_progress_dialog.xml.flat",
+        "source": "com.example.binusapp-main-48:/layouts/main/activity/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_top_in.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/top_in.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_to_left.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_to_left.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_in_right.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/drawable_img_asset_splash.png.flat",
+        "source": "com.example.binusapp-main-48:/drawable/img_asset_splash.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_from_left.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_from_left.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_in_bottom.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_out_top.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_out_top.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/drawable_logo.png.flat",
+        "source": "com.example.binusapp-main-48:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/font_mavenpro_regular.ttf.flat",
+        "source": "com.example.binusapp-main-48:/font/mavenpro_regular.ttf"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_to_bottom_anim.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/to_bottom_anim.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/font_mavenpro_bold.ttf.flat",
+        "source": "com.example.binusapp-main-48:/font/mavenpro_bold.ttf"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_rotate_close_anim.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/rotate_close_anim.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_in_left.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_rotate_open_anim.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/rotate_open_anim.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.example.binusapp-main-48:/layouts/main/activity/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_from_bottom_anim.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/from_bottom_anim.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_out_right.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/xml_external_files.xml.flat",
+        "source": "com.example.binusapp-main-48:/xml/external_files.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/font_mavenpro_medium.ttf.flat",
+        "source": "com.example.binusapp-main-48:/font/mavenpro_medium.ttf"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/drawable_btn_primary_round_small.xml.flat",
+        "source": "com.example.binusapp-main-48:/drawable/btn_primary_round_small.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.binusapp-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_in_top.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_in_top.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/drawable_google_button.xml.flat",
+        "source": "com.example.binusapp-main-48:/drawable/google_button.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.binusapp-main-48:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_to_right.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_to_right.xml"
+    },
+    {
+        "merged": "com.example.binusapp-merged_res-46:/anim_slide_out_left.xml.flat",
+        "source": "com.example.binusapp-main-48:/anim/slide_out_left.xml"
+    }
+]

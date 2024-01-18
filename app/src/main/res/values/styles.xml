@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!-- Transparent background for app / activity -->
+    <style name="Theme.app.Translucent" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="boxStrokeColor">@color/greyBd</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="TextInputLayoutWhite" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+    </style>
+
+
+    <style name="DialogThemeFullScreen" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mavenpro_regular</item>
+    </style>
+
+    <style name="TextViewBold" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mavenpro_bold</item>
+    </style>
+
+    <style name="TextViewSemiBold" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mavenpro_semibold</item>
+    </style>
+
+    <style name="TextViewMedium" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mavenpro_medium</item>
+    </style>
+
+    <style name="textBoldGreen" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="textMediumGreen" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="textSemiBoldGreen" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextViewRegular" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mavenpro_regular</item>
+    </style>
+
+    <style name="textRegularBlack" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textBoldBlack" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textSemiBoldBlack" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textRegularBlack33" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/black33</item>
+    </style>
+
+    <style name="textSemiBoldBlack33" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/black33</item>
+    </style>
+
+    <style name="textMediumBlack33" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/black33</item>
+    </style>
+
+    <style name="textMediumBlack00" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textBoldBlack33" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/black33</item>
+    </style>
+
+    <style name="textRegularWhite" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textSemiBoldWhite" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textMediumWhite" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textBoldWhite" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textRegularGrey4f" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/grey4f</item>
+    </style>
+
+    <style name="textSemiBoldGrey4f" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/grey4f</item>
+    </style>
+
+    <style name="textMediumGrey4f" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/grey4f</item>
+    </style>
+
+    <style name="textMediumGrey66" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/grey66</item>
+    </style>
+
+    <style name="textBoldGrey4f" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/grey4f</item>
+    </style>
+
+    <style name="textBoldRed" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="textSemiBoldRed" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="textMediumRed" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="textRegularRed" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="textMediumGreenLight" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/greenLight</item>
+    </style>
+
+    <style name="textBoldGreenLight" parent="@style/TextViewBold">
+        <item name="android:textColor">@color/greenLight</item>
+    </style>
+
+    <style name="textRegularGrey82" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/grey82</item>
+    </style>
+
+    <style name="textSemiBoldGrey82" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/grey82</item>
+    </style>
+
+    <style name="textMediumGrey82" parent="@style/TextViewMedium">
+        <item name="android:textColor">@color/grey82</item>
+    </style>
+
+    <style name="textRegularGrey75" parent="@style/TextViewRegular">
+        <item name="android:textColor">@color/grey75</item>
+    </style>
+
+    <style name="textSemiBoldOrange" parent="@style/TextViewSemiBold">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="CustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <!-- Animation for dialog box -->
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="SpinnerDatePickerDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="@style/Widget.MaterialComponents.TabLayout">
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabTextAppearance">@style/TabText</item>
+    </style>
+
+    <style name="TabText" parent="@style/Widget.AppCompat.TextView">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColor">@color/grey82</item>
+    </style>
+
+    <!-- blank styles for better code readability-->
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.BottomNavigationView" />
+
+    <!-- inactive tab icon style -->
+    <style name="TextAppearance.BottomNavigationView.Inactive" parent="@style/TextViewRegular">
+        <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
+    </style>
+
+    <!-- active tab icon style -->
+    <style name="TextAppearance.BottomNavigationView.Active" parent="@style/TextViewSemiBold">
+        <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="input_component_attributes">
+        <attr name="input_component_title" format="reference" />
+        <attr name="input_component_hint" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CompassView">
+        <attr name="showKaaba" format="boolean" />
+    </declare-styleable>
+</resources>
